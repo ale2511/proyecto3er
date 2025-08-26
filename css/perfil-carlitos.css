@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #1e1e1e;
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+  z-index: 10;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: 500;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #00baff;
+}
+
+.icono-usuario {
+  width: 35px;
+  height: 35px;
+  background-color: #33373b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.icono-usuario:hover {
+  background-color: #494f55;
+}
+
+/* CONTENIDO DEL PERFIL */
+
+main.perfil {
+  padding-top: 120px;
+}
+
+.usuario {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 40px 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #008fcc;
+}
+
+.usuario h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.usuario p {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.icono-usuario-grande {
+  width: 80px;
+  height: 80px;
+  background-color: #33373b;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #00baff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #008fcc;
+}
